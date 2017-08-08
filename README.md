@@ -1,4 +1,6 @@
-# euterpea playground
+# Euterpea playground
+
+[![Build Status](https://travis-ci.org/declension/euterpea-sandbox.svg?branch=master)](https://travis-ci.org/declension/euterpea-sandbox)
 
 Playground for creating simple music with the Haskell [Euterpea](http://www.euterpea.com/) library.
 
