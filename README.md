@@ -1,12 +1,12 @@
-# euterpea-sandbox
+# euterpea playground
 
-Playground for Euterpea projects.
+Playground for creating simple music with the Haskell [Euterpea](http://www.euterpea.com/) library.
 
-Accompany Blog Posts
---------------------
-See blog articles:
+Blog Posts
+----------
+See the accompanying blog posts:
  * [Music, Haskell and Westeros](http://declension.net/posts/2017-08-08-music-haskell-and-westeros/)
- * More coming soon...
+ * (More coming soon...)
 
 Build
 -----
