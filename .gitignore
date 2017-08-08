@@ -1,0 +1,9 @@
+### IDEA
+.idea/
+*.iml
+
+### Haskell template
+.cabal-sandbox/
+cabal.sandbox.config
+*.prof
+.stack-work/
