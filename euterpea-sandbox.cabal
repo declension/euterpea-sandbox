@@ -1,0 +1,24 @@
+name:                euterpea-sandbox
+version:             0.1.0.0
+homepage:            https://github.com/declension/euterpea-sandbox#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Nick Boultbee
+maintainer:          nick@declension.net
+copyright:           All Rights Reserved
+category:            value
+build-type:          Simple
+extra-source-files:  README.md
+cabal-version:       >=1.10
+
+executable music
+  hs-source-dirs:      app
+  main-is:             Main.hs
+  ghc-options:         -threaded -rtsopts -with-rtsopts=-N
+  build-depends:       base
+                     , Euterpea > 2.0.0 && < 2.1.0
+  default-language:    Haskell2010
+
+source-repository head
+  type:     git
+  location: https://github.com/declension/euterpea-sandbox
