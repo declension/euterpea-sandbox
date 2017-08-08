@@ -16,6 +16,7 @@ addons:
   apt:
     packages:
       - libgmp-dev
+      - libasound2-dev
 
 before_install:
 # Download and unpack the stack executable
