@@ -3,11 +3,8 @@ extra-package-dbs: []
 packages:
 - '.'
 extra-deps:
-- Euterpea-2.0.2
-- PortMidi-0.1.5.2
+- Euterpea-2.0.6
 - Stream-0.4.7.2
-- arrows-0.4.4.1
-- heap-0.6.0
+- arrows-0.4.4.2
 - lazysmallcheck-0.6
-- stm-2.4.2
-resolver: lts-9.0
+resolver: lts-11.16
