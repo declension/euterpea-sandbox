@@ -1,7 +1,7 @@
 module Main where
 
 import Euterpea.Music
-import Euterpea (playDev)
+import Euterpea (playDev, playDevS, devices)
 
 -- It's in 3-time (3/4 or 6/8)
 -- so each bar lasts one dotted half note (@dhn@)
