@@ -34,7 +34,7 @@ quadruplicate = concatMap (replicate 4)
 bpm = tempo . (/ 120.0)
 
 -- YMMV
-ch = 4 :: Int
+ch = 2 :: Int
 
 main :: IO ()
 main = playDev ch $ bpm 170 . inst Cello 60 $ melody
